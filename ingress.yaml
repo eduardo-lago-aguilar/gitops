@@ -16,3 +16,7 @@ spec:
           backend:
             serviceName: banana-service
             servicePort: 5678
+        - path: /mamey
+          backend:
+            serviceName: mamey-service
+            servicePort: 5678
